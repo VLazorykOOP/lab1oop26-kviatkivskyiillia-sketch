@@ -121,11 +121,11 @@ int main() {
 
     int choice;
 
-    cout << "===== MENU =====" << endl;
-    cout << "1 - Task 1" << endl;
-    cout << "2 - Task 2" << endl;
-    cout << "3 - Task 3" << endl;
-    cout << "Choose task: ";
+    cout << "Меню" << endl;
+    cout << "1 - Завдання 1" << endl;
+    cout << "2 - Завдання 2" << endl;
+    cout << "3 - Завдання 3" << endl;
+    cout << "Вибор: ";
     cin >> choice;
 
     switch (choice) {
@@ -139,7 +139,7 @@ int main() {
         task3();
         break;
     default:
-        cout << "Wrong choice!" << endl;
+        cout << "Не правильний вибір!" << endl;
     }
 
     return 0;
